@@ -17,6 +17,9 @@ import org.springframework.web.bind.annotation.RestController;
 import com.cenepred.appcnp.dto.model.StudentDTO;
 import com.cenepred.appcnp.service.StudentService;
 
+import org.springframework.web.bind.annotation.CrossOrigin;
+
+@CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
 @RequestMapping(value = "/api/v1/students")
 public class StudentRestController {
