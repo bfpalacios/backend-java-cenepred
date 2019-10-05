@@ -10,4 +10,5 @@ public class AppcnpApplication {
 		SpringApplication.run(AppcnpApplication.class, args);
 	}
 
+	
 }
