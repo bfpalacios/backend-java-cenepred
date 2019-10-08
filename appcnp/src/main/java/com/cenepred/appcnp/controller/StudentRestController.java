@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 
 @CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
-@RequestMapping(value = "/api/v1/students")
+@RequestMapping(value = "/api/cenepred/students/v1")
 public class StudentRestController {
 	
 	@Autowired

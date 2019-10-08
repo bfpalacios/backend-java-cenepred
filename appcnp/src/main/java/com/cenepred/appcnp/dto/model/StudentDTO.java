@@ -1,5 +1,7 @@
 package com.cenepred.appcnp.dto.model;
 
+
+//clase pojo
 public class StudentDTO {
 	private String id;
 	private String nombre;
